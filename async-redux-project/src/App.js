@@ -1,14 +1,17 @@
 import React from "react";
-import logo from "./logo.svg";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import "./App.css";
+import Header from "./components/Header";
+import PokemonGrid from "./components/PokemonGrid";
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <p>APP</p>
-      </header>
+      <Header />
+      <PokemonGrid />
+      <h1>POKEMON</h1>
+      <p>Testing studd</p>
+      <p>more ffff</p>
     </div>
   );
 }
