@@ -8,10 +8,8 @@ function App() {
   return (
     <div className='App'>
       <Header />
+      <h1 style={{ textAlign: "center" }}> POKEMON Cards </h1>
       <PokemonGrid />
-      <h1>POKEMON</h1>
-      <p>Testing studd</p>
-      <p>more ffff</p>
     </div>
   );
 }
